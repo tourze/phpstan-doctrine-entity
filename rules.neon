@@ -1,0 +1,29 @@
+services:
+    -
+        class: Tourze\PHPStanDoctrineEntity\IndexColumnMutuallyExclusiveAttributesRule
+        tags:
+            - phpstan.rules.rule
+    -
+        class: Tourze\PHPStanDoctrineEntity\EntityTestMustExtendAbstractEntityTestRule
+        tags:
+            - phpstan.rules.rule
+    -
+        class: Tourze\PHPStanDoctrineEntity\EntityRepositoryClassConstantRule
+        tags:
+            - phpstan.rules.rule
+    -
+        class: Tourze\PHPStanDoctrineEntity\EntityColumnCommentRule
+        tags:
+            - phpstan.rules.rule
+    -
+        class: Tourze\PHPStanDoctrineEntity\EntityDateTimeImmutableRule
+        tags:
+            - phpstan.rules.rule
+    -
+        class: Tourze\PHPStanDoctrineEntity\IndexNamePrefixRule
+        tags:
+            - phpstan.rules.rule
+    -
+        class: Tourze\PHPStanDoctrineEntity\EntityParameterlessConstructorRule
+        tags:
+            - phpstan.rules.rule

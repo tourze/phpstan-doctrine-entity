@@ -1,0 +1,14 @@
+parameters:
+    level: 8
+    paths:
+        - Fixtures
+    bootstrapFiles:
+        - ../../../vendor/autoload.php
+        # 预加载包含多类定义的测试夹具文件，避免 ReflectionProvider 无法通过 PSR-4 自动加载单文件多类而报错
+        - Fixtures/ConstructorTestEntities.php
+        - Fixtures/EntityTestFiles.php
+
+rules:
+    - Tourze\PHPStanDoctrineEntity\EntityTestMustExtendAbstractEntityTestRule
+    - Tourze\PHPStanDoctrineEntity\IndexColumnMutuallyExclusiveAttributesRule
+    - Tourze\PHPStanDoctrineEntity\EntityParameterlessConstructorRule
