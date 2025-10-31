@@ -8,7 +8,7 @@
     "composer-runtime-api": "^2.0",
     "doctrine/dbal": "^4.0",
     "doctrine/orm": "^3.0",
-    "tourze/doctrine-indexed-bundle": "0.0.*",
+    "tourze/doctrine-indexed-bundle": "1.0.*",
     "tourze/phpunit-doctrine-entity": "1.*"
   },
   "require-dev": {
