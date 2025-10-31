@@ -9,14 +9,14 @@
     "doctrine/dbal": "^4.0",
     "doctrine/orm": "^3.0",
     "tourze/doctrine-indexed-bundle": "0.0.*",
-    "tourze/phpunit-doctrine-entity": "0.0.*"
+    "tourze/phpunit-doctrine-entity": "1.*"
   },
   "require-dev": {
     "phpstan/phpstan": "^2.1",
     "phpunit/phpunit": "^11.5",
-    "tourze/enum-extra": "0.1.*",
+    "tourze/enum-extra": "1.*",
     "tourze/phpunit-base": "1.*",
-    "tourze/phpunit-enum": "0.0.*"
+    "tourze/phpunit-enum": "1.*"
   },
   "autoload": {
     "psr-4": {
