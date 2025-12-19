@@ -27,3 +27,7 @@ services:
         class: Tourze\PHPStanDoctrineEntity\EntityParameterlessConstructorRule
         tags:
             - phpstan.rules.rule
+    -
+        class: Tourze\PHPStanDoctrineEntity\RangeConstraintMessageRule
+        tags:
+            - phpstan.rules.rule
